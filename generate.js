@@ -22,7 +22,7 @@ document.getElementById('generateBtn').addEventListener('click', async function 
         const response = await fetch('https://external.api.recraft.ai/v1/images/generations', {
             method: 'POST',
             headers: {
-                'Authorization': 'Bearer snFLW81WFe5VcWQ00EOagR25vYIQnv3Doi6O82lxu3yz5pBHEL0nWxA1hTlCXqXN', // Ersätt med din API-nyckel
+                'Authorization': 'Bearer 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', // Ersätt med din API-nyckel
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
